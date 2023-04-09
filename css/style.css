@@ -1,0 +1,250 @@
+.a-contaiher {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.firstly-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.firstly-header>.logo {
+    margin: 20px 0px 20px 0px;
+    text-decoration: none;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 74px;
+    position: relative;
+    color: rgb(41, 228, 228);
+}
+
+.sub-logo {
+    position: absolute;
+    top: 5px;
+    right: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.firstly-header>div:last-child {
+    padding: 6px 20px 8px 20px;
+    background-color: #FE9920;
+    color: white;
+    border-radius: 3px;
+    font-family: 'Delicious Handrawn', cursive;
+    text-align: center;
+    user-select: none;
+}
+
+.firstly-header>div:last-child:hover {
+    background-color: #fc8d07;
+    box-shadow: 0 0 7px 2px lightgrey;
+}
+
+.wrapper-nav {
+    border-top: 1px solid lightgrey;
+    border-bottom: 3px solid rgb(224, 222, 222);
+    margin-bottom: 10px;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    padding: 15px;
+    font-weight: bold;
+}
+
+.menu>li:hover {
+    color: rgb(0, 0, 255);
+}
+
+.container {
+    max-width: 1024px;
+    margin: auto;
+    border: 1px solid rgb(131, 130, 130);
+    padding: 20px;
+    box-shadow: 0 0 10px 5px lightgray;
+}
+
+.container-width {
+    width: 80%;
+}
+
+.container-video {
+    margin: 20px auto;
+}
+
+.container-video>video {
+    width: 100%;
+}
+
+.control-panel {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.sub-control-panel {
+    display: flex;
+    justify-content: space-between
+}
+
+.btn-control {
+    width: 70px;
+    height: 50px;
+    text-align: center;
+}
+
+.btn-control img {
+    height: 100%;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.btn-control img:hover {
+    opacity: 1;
+    scale: 1.1;
+}
+
+.fa-solid {
+    font-size: 50px;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.fa-solid:hover {
+    opacity: 1;
+    scale: 1.1;
+}
+
+
+.current-time {
+    width: 200px;
+    height: 35px;
+    border: 1px solid rgb(117, 117, 117);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.container-list-videos {
+    max-width: 1500px;
+    margin: 50px auto 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* font-family: 'Caveat', cursive; */
+    /* font-family: 'Delicious Handrawn', cursive; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Shantell Sans', cursive; */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card-video {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 15px 0px 25px 0px;
+    max-width: 300px;
+}
+
+.wrap-video>img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.wrap-video>img:hover {
+    box-shadow: 0 0 5px 5px lightgray;
+}
+
+.card-video>.title-video {
+    max-width: 300px;
+    margin: 5px 0px 5px 0px;
+}
+
+.card-video>.subtitle-video {
+    max-width: 300px;
+    margin: 2px 0px 2px 0px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/*------------footer----------*/
+
+footer {
+    background-color: #2E4052;
+    /* background-color: #D1E3E5; */
+    color: white;
+}
+
+.last-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.last-footer>div:nth-child(1) {
+    margin: 0px 20px 0px 0px;
+    position: relative;
+}
+
+small {
+    margin-left: 70px;
+}
+
+.sub-logo-footer {
+    font-size: 14px;
+    position: absolute;
+    top: 25px;
+    right: 15px;
+}
+
+.last-footer>div:nth-child(2) {
+    width: 45%;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-left: 2px solid lightgray;
+    color: lightgray;
+    padding-left: 20px;
+}
+
+.last-footer>div:nth-child(3) {
+    font-family: 'Roboto', sans-serif;
+    text-align: start;
+}
+
+.last-footer>div:nth-child(3) p:first-child {
+    margin: 10px 0;
+}
+
+.last-footer>div:nth-child(3) div:last-child {
+    width: 180px;
+    padding: 6px 10px 8px 10px;
+    margin: 14px 0px 10px;
+    background-color: #FE9920;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    user-select: none;
+}
+
+.last-footer>div:nth-child(3) div:last-child:hover {
+    background-color: #fc8d07;
+    box-shadow: 0 0 7px 2px lightgrey;
+}
