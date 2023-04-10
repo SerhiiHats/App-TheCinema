@@ -132,6 +132,15 @@ li {
     scale: 1.1;
 }
 
+.fa-film{
+    font-size: unset;
+    opacity: 1;
+}
+
+.fa-film:hover {
+    scale: 1;
+}
+
 
 .current-time {
     width: 200px;
@@ -212,7 +221,7 @@ small {
 .sub-logo-footer {
     font-size: 14px;
     position: absolute;
-    top: 25px;
+    top: 17px;
     right: 15px;
 }
 
@@ -233,7 +242,7 @@ small {
     margin: 10px 0;
 }
 
-.last-footer>div:nth-child(3) div:last-child {
+.last-footer .btn-ask {
     width: 180px;
     padding: 6px 10px 8px 10px;
     margin: 14px 0px 10px;
@@ -244,7 +253,45 @@ small {
     user-select: none;
 }
 
-.last-footer>div:nth-child(3) div:last-child:hover {
+.last-footer .btn-ask:hover {
     background-color: #fc8d07;
     box-shadow: 0 0 7px 2px lightgrey;
+}
+
+
+footer .social-group {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* footer .social {
+    width: 50px;
+    height: 50px;
+    background-image: url("/icon/footer_socials.png");
+    background-repeat: no-repeat;
+    margin: 3px;
+} */
+
+.social-group .social:nth-child(1) {
+    background-position: 7px 7px;
+}
+
+.social-group .social:nth-child(1):hover {
+    background-position: 7px -62px;
+}
+
+.social-group .social:nth-child(2) {
+    background-position: 7px -148px;
+}
+
+.social-group .social:nth-child(2):hover {
+    background-position: 7px -239px;
+}
+
+.social-group .social:nth-child(3) {
+    background-position: 7px -443px;
+}
+
+.social-group .social:nth-child(3):hover {
+    background-position: 7px -348px;
 }
